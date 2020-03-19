@@ -1,0 +1,15 @@
+.cabecalho{
+        /*clear: both;*/
+        max-width:400px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+
+}
+
+.Rodape {
+    background-color: #D8D8D8;
+    color: black;
+    padding: 30px;
+    text-align: center;
+  }
