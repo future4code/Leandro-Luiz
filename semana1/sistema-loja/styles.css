@@ -1,0 +1,85 @@
+.cabecalho{
+        /*clear: both;*/
+        max-width:400px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+
+}
+
+.Rodape {
+    background-color: black;
+    color:white;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+  }
+
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size:14pt;
+    font-family: Arial;
+  }
+  
+  li a:hover {
+    background-color: gray ;
+   } 
+
+   
+ #santos-menu{
+     text-align: center;
+ }
+   
+ .centro-esquerda {
+    float: left;
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width:335px;
+    height:300px;
+  }
+
+  .centro-meio {
+    float: center;
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width:836px;
+    height:300px;
+  }
+
+  .centro-direita {
+    float: right;
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width:456px;
+    height:300px;
+  }
+
+  #container {
+    width: 100%;
+    border-color: blue;
+    text-align: center;
+}
+
