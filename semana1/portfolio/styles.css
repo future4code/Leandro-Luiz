@@ -1,0 +1,95 @@
+.cabecalho{
+    /*clear: both;*/
+    max-width:400px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+
+}
+/*
+.Rodape {
+background-color: white;
+color:black;
+padding: 10px;
+text-align: center;
+}
+*/
+.menu{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1480px;
+    height: 10vh;
+    background: url(imagens/cabecalhoRodape.jpg) no-repeat;
+    background-size: 91.5% 10vh;
+    
+  }
+  
+
+  .rodape{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1480px;
+    height: 10vh;
+    background: url(imagens/cabecalhoRodape.jpg) no-repeat;
+    background-size: 91.5% 10vh;
+    
+  }
+
+ #rodapeCopy{
+   text-align: center;
+   font-size: 20pt;
+   color: black;
+ }
+
+.icones-sociais li{
+    display: inline;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(imagens/cabecalhoRodape.jpg) no-repeat;
+    background-size: 91.5% 10vh;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size:16pt;
+    font-family: Arial;
+  }
+  
+  li a:hover {
+    background-color:#FFFFFF ;
+   }
+
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1350px; 
+    height: 608px;
+}
+
+
+
+
+
+
+
+
+
