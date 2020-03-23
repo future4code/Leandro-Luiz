@@ -145,3 +145,11 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
+#botao_fundo:hover {
+    background-color: #f5ce1f;
+}
+
+#botao_fundo:active { 
+    color: white;
+} 
