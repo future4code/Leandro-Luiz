@@ -150,6 +150,8 @@ td button {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    margin-left: 630px;
+    margin-top: 150px;
 }
 
 #back-button:hover {
@@ -162,4 +164,13 @@ td button {
 
 #botao_fundo:active { 
     color: white;
+} 
+
+
+.icone:hover {
+    opacity: 0.5; /*Botão Lupa fica opaco ao passar o mouse em cima*/
+}
+
+.icone:active { 
+    background-image: black;/*Botão Lupa fica preto ao clicar o mouse em cima*/
 } 
