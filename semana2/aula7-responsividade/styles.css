@@ -1,0 +1,146 @@
+*{
+    
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.container{
+    width: 100vw;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 8px;
+}
+.container1{
+    width: 100vw;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 8px;
+}
+
+.container2{
+    width: 100vw;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 8px;
+}
+
+.item1{
+    background-color: blue;
+    display: grid;
+    justify-content: center;
+    align-items: center;    
+}
+.item2{
+    background-color:yellow;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+.item3{
+    background-color:green;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+.item4{
+    background-color: blue;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+.item5{
+    background-color:yellow;
+    display:grid;
+    justify-content: center;
+    align-items: center; 
+}
+.item6{
+    background-color:green;
+    display:grid;
+    justify-content: center;
+    align-items: center; 
+}
+.item7{
+    background-color:rgb(19, 19, 17);
+    display:grid;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    width: 50vw;
+    height: 180px;
+}
+.item8{
+    background-color:rgb(12, 14, 12);
+    display:grid;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    width: 50vw;
+    height: 180px;
+}
+.item9{
+    border: 1px solid black;
+    display:grid;
+    justify-content: center;
+    align-items: center; 
+    color: black;
+    width: 30vw;
+    height: 150px;
+}
+.item10{
+    border: 1px solid black;
+    display:grid;
+    justify-content: center;
+    align-items: center; 
+    color: black;
+    width: 30vw;
+    height: 150px;
+}
+.item11{
+    /*border: 1px solid black;*/
+
+    border: 1px solid black;
+    display:grid;
+    justify-content: center;
+    align-items: center; 
+    color: black;
+    width: 30vw;
+    height: 150px;
+}
+#header{
+    background-color: red;
+    display: grid;
+    width: 100vw;
+    height: 20vh;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 400px){
+    *{
+    
+    }
+}
+
+@media screen and (min-device-width: 4100px) and (max-device-width: 800px){
+    *{
+    
+    }
+}
+
+@media screen and (min-device-width: 1200px){
+    *{
+
+    }
+}
