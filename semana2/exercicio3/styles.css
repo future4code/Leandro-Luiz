@@ -1,0 +1,99 @@
+ *{
+    border: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+/*Container Grid*/
+.container1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+
+/*Container Flexbox*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Grid*/
+
+
+ #content2 {
+    display: grid;
+    background-color: #0074D9;
+    align-items: center;
+    justify-content: center;
+    height: 138pt;
+ }
+
+ #branco {
+    display: grid;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #image {
+    display: grid;
+    background-color: #FF4136;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ #extra {
+    display: grid;
+    background-color: #01FF70;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 3;
+ }
+
+/*Flexbox*/
+#header, #menu {
+    display: flex;
+    flex-grow: 1;
+    height: 50px;
+}
+
+#menu {
+    display: flex;
+    background-color: #FFDC00;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+
+#header {
+   display: flex;
+   background-color: #2ECC40;
+   align-items: center;
+   justify-content: center;
+   width: 25%;
+}
+
+#content1 {
+    display: flex;
+    background-color: #F012BE;
+    align-items: center;
+    justify-content: center;
+    width: 1024.5pt;
+    height: 250pt;
+ }
+
+
+#footer {
+   display: flex;
+   background-color: #B10DC9;
+   align-items: center;
+   justify-content: center;
+   height: 30pt;
+}
+
+
