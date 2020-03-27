@@ -12,17 +12,24 @@ header{
    top: 0;
 }
 
-header > menuflex{
-    display: flex;
-    align-self: center;
+h1{
+    padding: 6px;
 }
 
+h2{
+    padding: 6px;
+}
+
+#menuflex{
+    display: flex;
+    align-self: center;
 
 
+}
 
 main{
     width: 100vw;
-    height: 1000px;
+    height: 500px;
     display: grid;
 }
 
@@ -51,17 +58,50 @@ footer{
     font-size: 24px;
     color: white;
     bottom: 0;
+    position: absolute;
+    top: 800px;
  }
 
+/*
+ .galeria1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 6px;
+    padding: 10px;
+}*/
 
  #detalheVideo2{
-    display: grid;
+    display: flex;
     width: 100vw;     
     height: 100vh;
+    padding: 10px;
 }
 
 #detalheVideo3{
-    display: grid;
-    width: 1px;     
-    height: 1px;
+    display: flex;
+    width: 99%;
+    height: 50%;
+    padding: 10px;       
 }
+
+@media only screen and (min-width: 400px) {
+    /* For tablets: */
+    .galeria, #galeriaItem, main, header > menuflex > menuflex1, footer{
+        width: 100%;
+        }
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .galeria, #galeriaItem, main, header > menuflex > menuflex1, footer{
+        width: 100%;
+        }
+  }
+
+  @media only screen and (max-width: 640px) {
+    /* For celulares: */
+    .galeria, #galeriaItem, main, header > menuflex > menuflex1, footer{
+    width: 100%;
+    
+    }
+  }
