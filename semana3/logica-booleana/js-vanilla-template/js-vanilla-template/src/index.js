@@ -150,3 +150,68 @@
 //let valorTotal = valorPago - valorDesconto; 
 //console.log("O valor a ser pago é de R$" + valorTotal + " com desconto.");
 //O valor a ser pago é de R$11.9 com desconto.
+
+//Desafio
+//
+//
+//a. Procure uma forma de converter libra (lb) para quilograma (kg) e 
+//escreva um programa que converta 20lb para kg. 
+//Imprima  a resposta no console da seguinte forma: 20lb equivalem a X kg
+// let libra = 20;
+// let quilograma = libra / 2.205;
+// console.log("20lb equivalem a " + quilograma + "kg.");
+// 20lb equivalem a 9.070294784580499kg.
+//
+//b. Procure uma forma de converter onça (oz) para quilograma (kg) 
+//e escreva um programa que converta 10.5oz para kg. 
+//Imprima  a resposta no console da seguinte forma: 
+//10.5oz equivalem a X kg
+// let onca = 10.5;
+// let quilograma = onca /  3.527;
+// console.log("10.5oz equivalem a " + quilograma + "kg.");
+// 10.5oz equivalem a 2.977034306776297kg.
+//
+//c. Procure uma forma de converter milha (mi) para metro (m) 
+// e escreva um programa que converta 100mi para m. 
+// Imprima  a resposta no console da seguinte forma: 
+// 100mi equivalem a X m
+// let milha = 100;
+// let metro = milha / 2.237;
+// console.log("100mi equivalem a " + metro + "m.");
+// 100mi equivalem a 44.70272686633884m.
+//
+//d. Procure uma forma de converter pés (ft) para metro (m) 
+// e escreva um programa que converta 50ft para m. 
+// Imprima  a resposta no console da seguinte forma: 
+// 50ft equivalem a X m
+// let pes = 50;
+// let metro = pes / 10.764;
+// console.log("50ft equivalem a " + metro + "m.");
+// 50ft equivalem a 4.645113340765515m.
+//
+//e. Procure uma forma de converter galão (gal) para litro (l) 
+// e escreva um programa que converta 103.56gal para litro. 
+// Imprima  a resposta no console da seguinte forma: 
+// 103.56gal equivalem a X l
+// let galao = 103.56;
+// let litro = galao * 3.806;
+// console.log("103.56gal equivalem a " + litro + " l.");
+// 103.56gal equivalem a 394.14936 litro.
+//
+// f. Procure uma forma de converter xícara (xic) para litro (l) 
+// e escreva um programa que converta 450xic para litro. 
+// Imprima  a resposta no console da seguinte forma: 
+// 450 xic equivalem a X l
+// let xicara = 450;
+// let litro = xicara / 3.52;
+// console.log("450 xic equivalem a " + litro + " l.");
+// 450 xic equivalem a 127.8409090909091 litro.
+//
+// g. Escolha ao menos um dos itens anteriores 
+// e modifique o programa para que ele peça ao usuário o valor da unidade original antes de converter. 
+// modificado letra (f)
+// let xicara = prompt("O equivalente a quantas xicaras você tem?");
+// let litro = xicara /3.52;
+// console.log("As " + xicara + " que você tem equivalem a " + litro + " litros.");
+// As 1590 que você tem equivalem a 451.70454545454544 litros.
+
