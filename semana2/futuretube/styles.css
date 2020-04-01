@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+   display: flex;
+   width: 100vw;
+   height: 100px;
+   background-color: #F4A460;
+   top: 0;
+}
+
+h1{
+    padding: 6px;
+}
+
+h2{
+    padding: 6px;
+}
+
+#menuflex{
+    display: flex;
+    align-self: center;
+
+
+}
+
+main{
+    width: 100vw;
+    height: 500px;
+    display: grid;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 6px;
+    padding: 10px;
+}
+
+#galeriaItem{
+    display: grid;
+    border: 1px solid green;
+    grid-column: 5px;
+    grid-row: 5px;  
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background-color:#696969;
+    font-size: 24px;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    top: 800px;
+ }
+
+/*
+ .galeria1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 6px;
+    padding: 10px;
+}*/
+
+ #detalheVideo2{
+    display: flex;
+    width: 100vw;     
+    height: 100vh;
+    padding: 10px;
+}
+
+#detalheVideo3{
+    display: flex;
+    width: 99%;
+    height: 50%;
+    padding: 10px;       
+}
+
+@media only screen and (min-width: 400px) {
+    /* For tablets: */
+    .galeria, #galeriaItem, main, header > menuflex > menuflex1, footer{
+        width: 100%;
+        }
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .galeria, #galeriaItem, main, header > menuflex > menuflex1, footer{
+        width: 100%;
+        }
+  }
+
+  @media only screen and (max-width: 640px) {
+    /* For celulares: */
+    .galeria, #galeriaItem, main, header > menuflex > menuflex1, footer{
+    width: 100%;
+    
+    }
+  }
