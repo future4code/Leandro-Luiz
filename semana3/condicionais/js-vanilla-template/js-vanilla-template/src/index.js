@@ -133,13 +133,11 @@
 //
 // let numero1 = Number(prompt("Digite o primeiro número"));
 // let numero2 = Number(prompt("Digite o segundo número"));
+// console.log("Antes de digitar o ultimo número verifique se é diferente dos anteriores");
 // let numero3 = Number(prompt("Digite o terceiro número"));
-
-// // if (numero1 === numero2 === numero3){
-// //     numero3 = Number(prompt("Digite novamente outro número pois esse ultimo é igual aos outros"))
-// // }
-
-// if (numero1 > numero2 && numero1 > numero3 && numero2 > numero3) {
+// if (numero1 === numero2 === numero3){
+//      numero3 = Number(prompt("Digite novamente outro número pois esse ultimo é igual aos outros"))
+//     } else if (numero1 > numero2 && numero1 > numero3 && numero2 > numero3) {
 
 //     console.log("O número1 que é: " + numero1 + " é maior que o número2 que é: " + numero2 + " que é maior que o número3 que é: " + numero3);
 
@@ -176,7 +174,7 @@
 //c. Agora, impeça que o usuário digite 3 números iguais. 
 //   Caso todos sejam iguais, mostre um aviso ao usuário indicando que ele deve, ao menos, 
 //   inserir um número diferente.
-//R: refazer***
+//R: console.log("Antes de digitar o ultimo número verifique se é diferente dos anteriores");
 
 //EXERCÍCIO 5
 //
@@ -197,9 +195,291 @@
 //
 //a. Escreva o diagrama esquemático que melhor represente a árvore condicional do exercício. 
 //(Coloque a imagem do esquema no drive e gerem um link de compartilhamento público. Coloque este link num comentário durante a resolução deste exercício)
-//
+// /diagramaEsquematico.jpeg (Está dentro da pasta do projeto)
 //
 //b. Escreva um programa que realize estas perguntas e indique a classificação final considerada. 
 //As opções são: ser humano; mamífero não humano; ave; réptil; anfíbio; peixe ou é invertebrado
-//
-//
+// 
+// let serVivo = prompt("O ser vivo a ser avaliado possui ossos ou não [s/n] ");
+// let pelos;
+// let racional;
+// let pena;
+// let terrestre;
+// let anfibio;
+
+// switch(serVivo){
+//     case "n":
+//         console.log("Ser Vivo Invertebrado");
+//     break;    
+
+//     case "s":
+//     console.log("Ser Vivo Vertebrado");
+//     pelos = prompt("Possui Pelos? [s/n]");
+//     break;
+//               }
+
+//     switch(pelos){
+//         case "s":
+//         console.log("Ser Vivo Mamífero");
+//         racional = prompt(" É um ser vivo racional? [s/n]");
+//         break;
+
+//         case "n":
+//         pena = prompt(" Possui pena? [s/n]");
+//         break;
+//         }   
+
+//         switch(racional){
+//             case "s":
+//             console.log("Ser Humano");
+//             break;
+
+//             case "n":
+//            console.log("Mamífero Não Humano");    
+//         }
+
+//         switch(pena){
+//             case "s":
+//             console.log("Ave");
+//             break;
+
+//             case "n":
+//             terrestre = prompt(" É um animal terrestre? [s/n]");
+//             break;
+//         }
+
+//         switch (terrestre){
+//             case "s":
+//             anfibio = prompt(" É um animal anfibio? [s/n]");
+//             break;
+
+//             case "n":
+//             console.log("Peixe");
+//             break;
+//         }
+
+//         switch (anfibio){
+//             case "s":
+//             console.log("Passa parte da vida na água (Aquático)");
+//             break;
+
+//             case "n":
+//             console.log("Réptil");
+//             break;
+//         }
+
+
+
+// //Desafio 1
+// let nomeCompleto = prompt("Digite seu Nome Completo");
+// let tipoDoJogo = prompt("Qual Tipo de jogo deseja assistir: IN indica internacional; e DO indica doméstico; [escolha IN/DO]").toLowerCase();
+// let etapaDoJogo = prompt("Qual Etapa do jogo: SF indica semi-final; DT indica decisão de terceiro lugar; e FI indica final [escolha SF/DT/FI]").toLowerCase();
+// let categoria = Number(prompt("Qual Categoria: pode ser as opções 1, 2, 3 ou 4; [escolha 1/2/3/4] "));
+// let quantidadeIngresso = Number(prompt("Quantidade de ingressos"));
+// let sf1 = 1320;
+// let sf2 = 880;
+// let sf3 = 550;
+// let sf4 = 220;
+// let dt1 = 660;
+// let dt2 = 440;
+// let dt3 = 330;
+// let dt4 = 170;
+// let fi1 = 1980;
+// let fi2 = 1320;
+// let fi3 = 880;
+// let fi4 = 330;
+
+
+
+
+
+// //Nacional
+
+// if (tipoDoJogo == "do" && etapaDoJogo == "sf" && categoria == 1){
+//     valorTotal = Number(sf1 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + sf1 + "\n Valor Total: " + valorTotal);
+
+//     }else if (tipoDoJogo == "do" && etapaDoJogo == "sf" && categoria == 2) {
+//     valorTotal = Number(sf2 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + sf2 + "\n Valor Total: " + valorTotal);
+
+//     }else if (tipoDoJogo == "do" && etapaDoJogo == "sf" && categoria == 3) {
+//     valorTotal = Number(sf3 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + sf3 + "\n Valor Total: " + valorTotal);
+//      }else { 
+//     valorTotal = Number(sf4 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + sf4 + "\n Valor Total: " + valorTotal);
+//      }
+  
+// //DT     
+// if (tipoDoJogo == "do" && etapaDoJogo == "dt" && categoria == 1) {
+//     valorTotal = Number(dt1 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + dt1 + "\n Valor Total: " + valorTotal);
+
+// }else if (tipoDoJogo == "do" && etapaDoJogo == "dt" && categoria == 2) {
+//     valorTotal = Number(dt2 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + dt2 + "\n Valor Total: " + valorTotal);
+
+// }else if (tipoDoJogo == "do" && etapaDoJogo == "dt" && categoria == 3) {
+//     valorTotal = Number(dt3 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + dt3 + "\n Valor Total: " + valorTotal);
+// }else {
+//     valorTotal = Number(dt4 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + dt4 + "\n Valor Total: " + valorTotal);
+// }
+
+// //FI
+
+// if (tipoDoJogo == "do" && etapaDoJogo == "fi" && categoria == 1) {
+//     valorTotal = Number(fi1 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + fi1 + "\n Valor Total: " + valorTotal);
+
+// }else if (tipoDoJogo == "do" && etapaDoJogo == "fi" && categoria == 2) {
+//     valorTotal = Number(fi2 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + fi2 + "\n Valor Total: " + valorTotal);
+
+// }else if (tipoDoJogo == "do" && etapaDoJogo == "fi" && categoria == 3) {
+//     valorTotal = Number(fi3 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + fi3 + "\n Valor Total: " + valorTotal);
+
+// }else {
+//     valorTotal = Number(fi4 * quantidadeIngresso);
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: " + fi4 + "\n Valor Total: " + valorTotal);
+// }
+
+
+
+
+// // Internacional
+
+// if (tipoDoJogo == "in" && etapaDoJogo == "sf" && categoria == 1) {
+//     valorTotal = Number(sf1 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + sf1 + "\n Valor Total: R$" + valorTotal);
+
+// }else if (tipoDoJogo == "in" && etapaDoJogo == "sf" && categoria == 2) {
+//     valorTotal = Number(sf2 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + sf2 + "\n Valor Total: R$" + valorTotal);
+
+// }else if (tipoDoJogo == "in" && etapaDoJogo == "sf" && categoria == 3) {
+//     valorTotal = Number(sf3 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + sf3 + "\n Valor Total: R$" + valorTotal);
+
+// }else {
+//     valorTotal = Number(sf4 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + sf4 + "\n Valor Total: R$" + valorTotal);
+// }
+
+// //DT     
+// if (tipoDoJogo == "in" && etapaDoJogo == "dt" && categoria == 1) {
+//     valorTotal = Number(dt1 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + dt1 + "\n Valor Total: R$" + valorTotal);
+
+// }else if (tipoDoJogo == "in" && etapaDoJogo == "dt" && categoria == 2) {
+//     valorTotal = Number(dt2 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + dt2 + "\n Valor Total: R$" + valorTotal);
+
+// }else if (tipoDoJogo == "in" && etapaDoJogo == "dt" && categoria == 3) {
+//     valorTotal = Number(dt3 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + dt3 + "\n Valor Total: R$" + valorTotal);
+
+// }else {
+//     valorTotal = Number(dt4 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + dt4 + "\n Valor Total: R$" + valorTotal);
+// }
+
+// //FI
+
+// if (tipoDoJogo == "in" && etapaDoJogo == "fi" && categoria == 1) {
+//     valorTotal = Number(fi1 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + fi1 + "\n Valor Total: R$" + valorTotal);
+
+// }else if (tipoDoJogo == "in" && etapaDoJogo == "fi" && categoria == 2) {
+//     valorTotal = Number(fi2 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + fi2 + "\n Valor Total: R$" + valorTotal);
+// }else if (tipoDoJogo == "in" && etapaDoJogo == "fi" && categoria == 3) {
+//     valorTotal = Number(fi3 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + fi3 + "\n Valor Total: R$" + valorTotal);
+// }else {
+//     valorTotal = Number(fi4 * (quantidadeIngresso * 4.10));
+//     console.log("----Dados da Compra----\n Nome do Cliente: " + nomeCompleto +
+//         "\n Tipo do Jogo: " + tipoDoJogo + "\n Etapa do Jogo: " + etapaDoJogo +
+//         "\n Categoria: " + categoria + "\n Quantidade de Ingressos:" + quantidadeIngresso +
+//         "\n----Valores----\n" + "Valor do Ingresso: R$" + fi4 + "\n Valor Total: R$" + valorTotal);
+// }
+
+
+
+
+
+
+
+
