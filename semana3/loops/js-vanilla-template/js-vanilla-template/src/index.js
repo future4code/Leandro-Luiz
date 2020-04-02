@@ -229,22 +229,26 @@
 //**Deixe comentários no seu código sobre esta reflexão.**
 
 
-console.log("Vamos Jogar!!!");
-let numeroAleatorio;
-let respostaJogador = prompt("Jogador, digite o número que você acha que seria");
-let contador = 0;
 
-while(numeroAleatorio !== respostaJogador){
-    contador++;
-    console.log("O número chutado foi: " + respostaJogador);
-    if(numeroAleatorio < respostaJogador){
-       console.log("Errado. O número chutado por você, foi maior");   
-    }
-    if(numeroAleatorio > respostaJogador){
-        console.log("Errado. O número chutado por você, foi menor");   
-     }
-    respostaJogador = prompt("Jogador, digite o número que você acha que seria");
-}
+// console.log("Vamos Jogar!!!");  
+// function myFunction() {
+//     return Math.floor((Math.random() * 100) + 1);
+//   }
+// let numeroAleatorio = myFunction(); 
+// let respostaJogador = prompt("Jogador, digite o número que você acha que seria");
+// let contador = 0;
 
-console.log("Acertou!!!");
-console.log("O número de tentativas foi de: " + contador);
+// while(numeroAleatorio !== respostaJogador){
+//     contador++;
+//     console.log("O número chutado foi: " + respostaJogador);
+//     if(numeroAleatorio < respostaJogador){
+//        console.log("Errado. O número chutado por você, foi maior");   
+//     }
+//     if(numeroAleatorio > respostaJogador){
+//         console.log("Errado. O número chutado por você, foi menor");   
+//      }
+//     respostaJogador = prompt("Jogador, digite o número que você acha que seria");
+// }
+
+// console.log("Acertou!!!");
+// console.log("O número de tentativas foi de: " + contador);
