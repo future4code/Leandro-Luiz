@@ -1,0 +1,28 @@
+.menu{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1480px;
+    height: 10vh;
+    background: url(imagens/cabecalhoRodape.jpg) no-repeat;
+    background-size: 91.5% 10vh;
+    
+}
+
+
+
+.blocoTexto { 
+
+    color:white;
+    padding:20px;
+    font-family: Arial;
+    background: url(imagens/cabecalhoRodape.jpg) no-repeat;
+}
+
+
+
+
+
+
+
+
