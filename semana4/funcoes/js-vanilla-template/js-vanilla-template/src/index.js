@@ -196,68 +196,53 @@
 //
 // b. Escreva uma função que receba um número e devolva um booleano indicando se ele é par ou não
 // R:
+//    let numero;
+//    function recebaNumero(numero){
+//      numero = (prompt("Digite um número e confirme se é par"));
+//      if (numero % 2 === 0){
+//          console.log(true);
+//      }else{
+//          console.log(false);
+//      }
+//    }
+
+//    recebaNumero();
+//
 //
 // c. Escreva uma função que receba um array de números e devolva a quantidade de números pares dentro dele
 // R:
-//
-// d. Reescreva seu código anterior (do item c) de tal forma que ele utilize a função do item b para verificar 
-//    se o número é par
-// R:
-//
-
 // const array = [10, 23, 45, 78, 90, 52, 35, 67, 84, 22]
 // let numero = 0;
-// let arrayPar = [];
-// let arrayImpar = [];
+// let quantidadeNumeros = 0;
 
-// function parImpar(numero){
+// function numeroPar(numero){
+// let arrayPar = [];
 //     for (let i = 0; i < array.length; i++){
 //     numero = array[i];
 //         if (numero % 2 === 0){
-//         arrayPar = numero;     
-//         console.log("Os números " + numero + "são pares");
-//         } else {
-//         arrayImpar = numero;    
-//         console.log("Os números " + numero + " são ímpares");
+//          quantidadeNumeros = quantidadeNumeros + 1;   
+//          console.log("Os números " + array[i]  + " são pares"); 
 //         }
-
+     
 //     }
-      
+//      console.log("São " + quantidadeNumeros + " números") ;
 // }
 
- //console.log(parImpar());
+// numeroPar();
+//
+//
+// d. Reescreva seu código anterior (do item c) de tal forma que ele utilize a função do item b para verificar 
+//    se o número é par
+// R: 
+//
 
 
-// let verificaParidade = function (numero) {
-//     console.log("Começo")
-//     if (numero % 2 === 0) {
-//         return "É par"
-//     } else {
-//         return "É ímpar"
-//     }
 
-// }
-
-// console.log(verificaParidade(6))
-
-const array = [10, 23, 45, 78, 90, 52, 35, 67, 84, 22]
-	let numero = 0;
-	let arrayPar = [];
-	let arrayImpar = [];
 	
-	function parImpar(numero){
-	    for (let i = 0; i < array.length; i++){
-	    numero = array[i];
-	        if (numero % 2 === 0){
-	        arrayPar[i] = numero;     
-	        return("Os números " + arrayPar[i] + "são pares");
-	        } else {
-	        arrayImpar[i] = numero;    
-	        return("Os números " + arrayImpar[i] + " são ímpares");
-	        }
 	
-	    }
-	      
-	}
-	
-	console.log(parImpar(numero));
+    
+
+
+
+
+
