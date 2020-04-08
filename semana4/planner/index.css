@@ -1,0 +1,128 @@
+
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    margin: 20px;
+    gap: 3px;
+    color: white;
+}
+
+
+hr{
+    border-color: red;
+}
+
+body{
+    background-image: url("calendario.jpg");
+}
+
+label{
+    width: 10vw;
+    height: 20px;
+    margin-right: 1px;
+    font-size: 25px;
+}
+
+#tarefaNova{
+    width: 30vw;
+    height: 20px;
+    margin-right: 30px;
+}
+
+#selecaoDia{
+    width: 15vw;
+    height: 25px;
+    margin-right: 30px;
+}
+
+button{
+    display: flex;
+    width: 10vw;
+    height: 25px;
+}
+
+#domingo{
+    border: 1px solid red;
+    border-bottom: 0;
+    border-top: 0;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    font-size: 30px;
+    color: white;
+}
+
+
+#segunda{
+    border: 1px solid red;
+    border-bottom: 0;
+    border-top: 0;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    font-size: 30px;
+    color: white;
+}
+
+
+#terca{
+    border: 1px solid red;
+    border-bottom: 0;
+    border-top: 0;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    font-size: 30px;
+    color: white;
+}
+
+
+#quarta{
+    border: 1px solid red;
+    border-bottom: 0;
+    border-top: 0;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    font-size: 30px;
+    color: white;
+}
+
+
+#quinta{
+    border: 1px solid red;
+    border-bottom: 0;
+    border-top: 0;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    font-size: 30px;
+    color: white;
+}
+
+
+#sexta{
+    border: 1px solid red;
+    border-bottom: 0;
+    border-top: 0;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    font-size: 30px;
+    color: white;
+}
+
+
+#sabado{
+    border: 1px solid red;
+    border-bottom: 0;
+    border-top: 0;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    font-size: 30px;
+    color: white;
+}
+
