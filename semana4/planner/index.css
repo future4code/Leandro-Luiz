@@ -8,6 +8,7 @@
     /* background-color: green; */
     margin: 20px;
     gap: 3px;
+    color: white;
 }
 
 /* p{
@@ -16,6 +17,14 @@
    justify-items: center;
    font-style: italic;
 } */
+
+hr{
+    border-color: red;
+}
+
+body{
+    background-image: url("calendario.jpg");
+}
 
 label{
     width: 10vw;
@@ -46,92 +55,99 @@ button{
 }
 
 #domingo{
-    border: 1px dashed black;
+    border: 1px solid red;
     border-bottom: 0;
     border-top: 0;
-    min-height: 25vh;
+    /*min-height: 25vh;*/
     margin: 10px;
     padding: 10px;
     height: 50vh;
-    min-width: 400px;
+    /*min-width: 400px;*/
     font-size: 30px;
+    color: white;
 }
 
 
 #segunda{
-    border: 1px dashed black;
+    border: 1px solid red;
     border-bottom: 0;
     border-top: 0;
-    min-height: 25vh;
+    /* min-height: 25vh; */
     margin: 10px;
     padding: 10px;
     height: 50vh;
-    min-width: 400px;
+    /* min-width: 400px; */
     font-size: 30px;
+    color: white;
 }
 
 
 #terca{
-    border: 1px dashed black;
+    border: 1px solid red;
     border-bottom: 0;
     border-top: 0;
-    min-height: 25vh;
+    /* min-height: 25vh; */
     margin: 10px;
     padding: 10px;
     height: 50vh;
-    min-width: 400px;
+    /* min-width: 400px; */
     font-size: 30px;
+    color: white;
 }
 
 
 #quarta{
-    border: 1px dashed black;
+    border: 1px solid red;
     border-bottom: 0;
     border-top: 0;
-    min-height: 25vh;
+    /* min-height: 25vh; */
     margin: 10px;
     padding: 10px;
     height: 50vh;
-    min-width: 400px;
+    /* min-width: 400px; */
     font-size: 30px;
+    color: white;
 }
 
 
 #quinta{
-    border: 1px dashed black;
+    border: 1px solid red;
     border-bottom: 0;
     border-top: 0;
-    min-height: 25vh;
+    /* min-height: 25vh; */
     margin: 10px;
     padding: 10px;
     height: 50vh;
-    min-width: 400px;
+    /* min-width: 400px; */
     font-size: 30px;
+    color: white;
 }
 
 
 #sexta{
-    border: 1px dashed black;
+    border: 1px solid red;
     border-bottom: 0;
     border-top: 0;
-    min-height: 25vh;
+    /* min-height: 25vh; */
     margin: 10px;
     padding: 10px;
     height: 50vh;
-    min-width: 400px;
+    /* min-width: 400px; */
     font-size: 30px;
+    color: white;
 }
 
 
 #sabado{
-    border: 1px dashed black;
+    border: 1px solid red;
     border-bottom: 0;
     border-top: 0;
-    min-height: 25vh;
+    /* min-height: 25vh; */
     margin: 10px;
     padding: 10px;
     height: 50vh;
-    min-width: 400px;
+    /* min-width: 400px; */
     font-size: 30px;
+    color: white;
 }
 
