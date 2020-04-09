@@ -1,34 +1,20 @@
 const armazenarPost = {
-    const novaTarefa = document.getElementById("tarefaNova").value;
-    const selecaoDoDia = document.getElementById("selecaoDia").value;
-    
-
-    if(novaTarefa == " " || novaTarefa == ""){
-        console.log(alert("Digitar Tarefa Válida"));
-    }else
-    
-    if (selecaoDoDia == 'domingo') {
-         document.getElementById('domingo').innerHTML += "\n<span>" + novaTarefa + "</span>\n\n/";
-
-	} else if (selecaoDoDia == 'segunda'){
-        document.getElementById('segunda').innerHTML += "\n<span>" + novaTarefa + "</span>\n\n/";
-        
-	}else if (selecaoDoDia == 'terca') {
-        document.getElementById('terca').innerHTML += "\n<span>" + novaTarefa + "</span>\n\n/";
-        
-	} else if (selecaoDoDia == 'quarta') {
-        document.getElementById('quarta').innerHTML += "\n<span>" + novaTarefa + "</span>\n\n/";
-        
-	} else if (selecaoDoDia == 'quinta') {
-        document.getElementById('quinta').innerHTML += "\n<span>" + novaTarefa + "</span>\n\n/";
-        
-	} else if (selecaoDoDia == 'sexta') {
-        document.getElementById('sexta').innerHTML += "\n<span>" + novaTarefa + "</span>\n\n/";
-        
-	} else if (selecaoDoDia == 'sabado') {
-        document.getElementById('sabado').innerHTML += "\n<span>" + novaTarefa + "</span>\n\n/";
-        
-	}
-    document.getElementById('tarefaNova').value = "";
-     
+        tituloPost: document.getElementById('titulo').value,
+        nomeAutor: document.getElementById("nome").value,
+        msgPost: document.getElementById("msg").value
 }
+
+arrayPost = [{ armazenarPost }];
+
+if (arrayPost !== "") {
+      document.getElementById('titulo').innerHTML += "\n<span>" + tituloPost + "</span>\n\n/";
+      document.getElementById('nome').innerHTML += "\n<span>" + nomeAutor + "</span>\n\n/";
+      document.getElementById('msg').innerHTML += "\n<span>" + msgPost + "</span>\n\n/";
+      
+      document.getElementById('titulo').value = "";
+      document.getElementById('nome').value = "";
+      document.getElementById('msg').value = "";
+}
+
+console.log(arrayPost);
+
