@@ -1,7 +1,13 @@
-const armazenarPost = {
-        tituloPost: document.getElementById('titulo').value,
-        nomeAutor: document.getElementById("nome").value,
-        msgPost: document.getElementById("msg").value
+ function salvarPost(){
+       const tituloPost = document.getElementById('titulo').value;
+       const nomeAutor = document.getElementById("nome").value;
+       const mensagem =  document.getElementById("msg").value;
+}
+
+const Post ={
+     tituloPost: titulo,
+     nomeAutor: nome,
+     msgPost: msg
 }
 
 arrayPost = [{ armazenarPost }];
