@@ -129,6 +129,40 @@
 
     //     iii. determine a diferença entre eles (o resultado deve ser um número positivo sempre)
 
-    //     Um exemplo:
+    //R: 
 
-    //     ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3961a32-1d25-4c39-ac2b-c3b7333d9cc6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3961a32-1d25-4c39-ac2b-c3b7333d9cc6/Untitled.png)
+//    let n1 = 0;
+//    let n2 = 0;
+
+//     function numeroMaior(n1,n2){
+//        if(n1 > n2){
+//            console.log(n1 + " é maior que " + n2);
+//        }else{
+//            console.log(n2 + " é maior que " + n1);
+//        } 
+
+//        numerosDivisiveis(n1,n2);
+//     }
+
+//     numeroMaior(15,30);
+
+//     function numerosDivisiveis(n1,n2){
+//       if (n1 % n2 == 0){
+//           console.log(n1 + "não é divisivel por " + n2);
+//       }else if(n2 % n1 == 0){
+//         console.log(n2 + " é divisil por " + n1);
+//       } 
+     
+//       diferencaNumeros(n1,n2);
+
+//     }
+
+//     function diferencaNumeros(n1,n2){
+//        if (n1 > n2){
+//            let diferenca = n1 - n2;
+//            console.log("A diferença entre eles é " + diferenca); 
+//        }else if(n2 > n1){
+//            let diferenca = n2 - n1;
+//            console.log("A diferença entre eles é " + diferenca); 
+//        }
+//     }
