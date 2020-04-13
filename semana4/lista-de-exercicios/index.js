@@ -194,8 +194,14 @@
 // console.log(segundoMaior, segundoMenor);
 
 //
-//    2. Escreva uma **função não nomeada** que faça um `alert("Hello Future4");`. Em seguida, invoque essa função.
+// 2. Escreva uma **função não nomeada** que faça um `alert("Hello Future4");`. 
+//    Em seguida, invoque essa função.
+// // R:
+//     const mensagem = function(){
+//         alert("Hello Labenu");
+//     }
 
+//     const alerta = mensagem();
 //    
 //  **Exercícios de Objetos**
 //  1. Explique com as suas palavras o que são e quando podemos/devemos utilizar arrays e objetos.
