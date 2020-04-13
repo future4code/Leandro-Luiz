@@ -166,3 +166,43 @@
 //            console.log("A diferença entre eles é " + diferenca); 
 //        }
 //     }
+
+// Aula 15 - Projeto da Semana
+
+//  **Exercícios de Funções**
+//1. Escreva uma função que receba um `array` de números e imprima na tela o segundo maior 
+//   e o segundo menor número. Em seguida, invoque essa função.
+// R: 
+    
+// const meuArray = [10,30,20,50,40];
+// let segundoMenor = meuArray[0];
+// let segundoMaior = meuArray[0];
+// let primeiroMenor = meuArray[0];
+// let primeiroMaior = meuArray[0];
+
+// function comparaNumeros(){
+//     for(let i = 0; i < meuArray.length; i++){
+//         let numero = meuArray[i];
+//         if( numero >= primeiroMenor && numero <= segundoMenor){
+//             segundoMenor = numero; 
+//         }
+//         if(numero >= primeiroMaior && numero <= segundoMaior){
+//             segundoMaior = numero; 
+//         }
+//     }
+// }
+// console.log(segundoMaior, segundoMenor);
+
+//
+//    2. Escreva uma **função não nomeada** que faça um `alert("Hello Future4");`. Em seguida, invoque essa função.
+
+//    
+//  **Exercícios de Objetos**
+//  1. Explique com as suas palavras o que são e quando podemos/devemos utilizar arrays e objetos.
+//    R: Objetos tem propriedades que são constituidas por chaves e valor, já array não possui essas 
+//      propriedades e são objetos strings extensas.
+//
+    // 2. Crie uma função chamada `criaRetangulo` que recebe como parâmetros dois lados (`lado1` e `lado2`) e retorna um objeto com 4 informações: largura (`lado1`), altura (`lado2`), perímetro (`2 * (lado1 + lado2)`) e área (`lado1 * lado2`).
+    // 3. Crie um objeto para representar seu filme favorito. Ele deve ter as seguintes propriedades: título, ano, diretor e atores/atrizes (lista com pelo menos 2 atores/atrizes). Imprima na tela a seguinte string, baseada nos valores do objeto:
+    // `Venha assistir ao filme NOME DO FILME, de ANO, dirigido por DIRETOR e estrelado por ATOR 1, ATRIZ 2, ATOR n`. A lista de atores/atrizes deve ser impressa inteira, independente do tamanho da lista.
+    // 4. Crie um objeto que represente uma pessoa qualquer, com as propriedades de `nome`, `idade`, `email` e `endereco`. Crie uma função chamada `anonimizarPessoa`, que deverá retornar um **novo** objeto com as mesmas propriedades, mas com a string `ANÔNIMO` no lugar do nome. O objeto original deve ser mantido com o nome da pessoa.
