@@ -87,7 +87,39 @@
 
     //     Este código funciona? Por quê? Caso não funcione, corrija a implementação dele.
 
-    // 3. Vocês lembram de trigonometria? ~~(Oh, não, trigonometria)~~. Relaxem. O exercício é simples, mas mexe com isso. Veja bem: quando nos ensinam triângulos (uma figura de três lados), nós aprendemos como classifica-los dependendo do tamanho de seus lados. Se um triângulo possuir os **três lados iguais**, ele é chamado de "Equilátero". Se possuir, **dois (e somente 2) lados iguais**, diz-se que ele é "Isósceles". Se os **três lados tiverem medidas diferentes**, ele é "Escaleno". Faça uma função que receba como parâmetro os tamanhos dos três lados do triângulo: `a, b, c`  e retorne se ele é equilátero, isósceles ou escaleno.
+    // 3. Vocês lembram de trigonometria? ~~(Oh, não, trigonometria)~~. 
+    //    Relaxem. O exercício é simples, mas mexe com isso. 
+    //    Veja bem: quando nos ensinam triângulos (uma figura de três lados), 
+    //     nós aprendemos como classifica-los dependendo do tamanho de seus lados. 
+    //    Se um triângulo possuir os **três lados iguais**, ele é chamado de "Equilátero". 
+    //    Se possuir, **dois (e somente 2) lados iguais**, diz-se que ele é "Isósceles". 
+    //    Se os **três lados tiverem medidas diferentes**, ele é "Escaleno". 
+    //    Faça uma função que receba como parâmetro os tamanhos dos três lados do triângulo: `a, b, c` 
+    //    e retorne se ele é equilátero, isósceles ou escaleno.
+ 
+    //R:
+    
+    // let ladoA = 0; 
+    // let ladoB = 0;
+    // let ladoC = 0;
+
+    // function ladosTriangulo(ladoA,ladoB,ladoC){
+    //      ladoA = Number(prompt("Digite o lado A"));
+    //      ladoB = Number(prompt("Digite o lado B"));
+    //      ladoC = Number(prompt("Digite o lado C"));
+
+    //      if(ladoA == ladoB == ladoC){
+    //          console.log("Equilátero");
+    //      }else if(ladoA == ladoB || ladoA == ladoC || ladoB == ladoC){
+    //          console.log("Isósceles");
+    //      }else if(ladoA != ladoB || ladoA != ladoC || ladoB != ladoC){
+    //          console.log("Escaleno");
+    //      }
+
+    // }
+
+    // ladosTriangulo();
+
 
     // 4. Faça um programa que, dados dois números,
 
